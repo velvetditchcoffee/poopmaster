@@ -3,26 +3,13 @@
 ## What this is
 This project is a plan for a 2-week boot camp to train my 1-year-old Bichon Frise dog Dottie to poop outside and not in the house
 
-## Stack & key tools
-- Language / framework / version
-- Package manager (e.g. npm, pip, cargo)
-- Database, if any
-- Anything non-obvious about the environment
-
-## How to run things
-- Start dev server: `[command]`
-- Run tests: `[command]`
-- Build: `[command]`
-- Lint / format: `[command]`
-
-## Conventions
-- Code style notes (e.g. "use early returns, avoid deep nesting")
-- Naming patterns you follow
-- File/folder organization rules
-- Commit message format, if you care about it
+## Tally tracking
+- **`TALLY.md`** (project root) is the canonical tally file — always read and update it when reporting or recording poop events.
+- Hooks auto-commit and push `TALLY.md` to GitHub after every edit, and auto-pull at session start, so the tally stays in sync across Claude Code CLI and Web.
+- Memory stores a summary of the tally, but `TALLY.md` is the source of truth.
 
 ## Don't
-- Things Claude should never touch (e.g. "don't edit files in /vendor")
+- Don't commit or modify files in `output/`
 
 ## Context / gotchas
 - My wife Lesley, daughter Ruby and I can take turns being in charge of training Dottie. None of us like to do this for too long at a time.

@@ -1,0 +1,31 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git -C 'C:/users/BrianWalkington/dev/experiments' pull",
+            "shell": "powershell",
+            "statusMessage": "Syncing latest tally from git...",
+            "timeout": 30
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$changes = git -C 'C:/users/BrianWalkington/dev/experiments' status --porcelain; if ($changes) { git -C 'C:/users/BrianWalkington/dev/experiments' add -u; git -C 'C:/users/BrianWalkington/dev/experiments' commit -m 'auto: sync project files'; git -C 'C:/users/BrianWalkington/dev/experiments' push }",
+            "shell": "powershell",
+            "statusMessage": "Auto-saving to git...",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
