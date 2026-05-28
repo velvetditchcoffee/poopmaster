@@ -9,6 +9,12 @@
             "shell": "powershell",
             "statusMessage": "Syncing latest tally from git...",
             "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "cd /home/user/poopmaster 2>/dev/null || exit 0; git fetch origin master 2>/dev/null && git merge origin/master --no-edit 2>/dev/null || true",
+            "statusMessage": "Pulling latest tally from master...",
+            "timeout": 30
           }
         ]
       }
@@ -22,6 +28,12 @@
             "command": "$changes = git -C 'C:/users/BrianWalkington/dev/experiments' status --porcelain; if ($changes) { git -C 'C:/users/BrianWalkington/dev/experiments' add -u; git -C 'C:/users/BrianWalkington/dev/experiments' commit -m 'auto: sync project files'; git -C 'C:/users/BrianWalkington/dev/experiments' push }",
             "shell": "powershell",
             "statusMessage": "Auto-saving to git...",
+            "timeout": 30
+          },
+          {
+            "type": "command",
+            "command": "cd /home/user/poopmaster 2>/dev/null || exit 0; git diff --quiet HEAD -- TALLY.md && exit 0; git add TALLY.md && git commit -m 'auto: update tally' && git fetch origin master 2>/dev/null; git merge origin/master --no-edit 2>/dev/null || true; git push origin HEAD:master || true",
+            "statusMessage": "Syncing tally to master...",
             "timeout": 30
           }
         ]
