@@ -3,6 +3,9 @@
 ## What this is
 This project is a plan for a 2-week boot camp to train my 1-year-old Bichon Frise dog Dottie to poop outside and not in the house
 
+## Date/time
+- Always use **US Central Time** for logging dates. A SessionStart hook outputs the current Central date/time — use that instead of the system-injected `currentDate` (which is UTC and can be a day ahead in the evening).
+
 ## Tally tracking
 - **`TALLY.md`** (project root) is the canonical tally file — always read and update it when reporting or recording poop events.
 - Hooks auto-commit and push `TALLY.md` to GitHub after every edit, and auto-pull at session start, so the tally stays in sync across Claude Code CLI and Web.

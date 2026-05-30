@@ -5,6 +5,12 @@
         "hooks": [
           {
             "type": "command",
+            "command": "echo \"Current date/time in US Central: $(TZ='America/Chicago' date '+%Y-%m-%d %H:%M (%A)')\"",
+            "statusMessage": "Reporting current Central time...",
+            "timeout": 5
+          },
+          {
+            "type": "command",
             "command": "git -C 'C:/users/BrianWalkington/dev/experiments' pull",
             "shell": "powershell",
             "statusMessage": "Syncing latest tally from git...",
