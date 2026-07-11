@@ -6,8 +6,9 @@ Boot camp start: 2026-07-09 | Goal: poop outside, not inside
 | Date | Outside | Accidents | Notes |
 |------|:-------:|:---------:|-------|
 | 2026-07-09 (Wed) | 0 | 1 | Boot camp restarted after vacation. Pooped inside. |
+| 2026-07-11 (Sat) | 1 | 0 | Pooped outside! |
 
-**Running totals: 0 outside / 1 accident**
+**Running totals: 1 outside / 1 accident**
 
 ---
 *Update this file or tell Claude Code to update it for you.*
