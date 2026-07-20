@@ -39,8 +39,10 @@ Boot camp start: 2026-05-23
 | 2026-06-04 (Thu) | 1 | 1 | Pooped outside this morning, accident inside this evening. |
 | 2026-06-05 (Fri) | 1 | 0 | Pooped outside! |
 | 2026-06-07 (Sun) | 2 | 0 | Pooped outside twice! |
+| 2026-06-18 (Sat) | 1 | 1 | Pooped outside once, accident inside once. |
+| 2026-06-19 (Sun) | 1 | 0 | Pooped outside! |
 
-**Boot Camp 1 totals: 14 outside / 7 accidents**
+**Boot Camp 1 totals: 16 outside / 8 accidents**
 
 ---
 *Update this file or tell Claude Code to update it for you.*
