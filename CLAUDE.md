@@ -1,7 +1,7 @@
 # Project: Poopmaster
 
 ## What this is
-Project to test Claude code and track potty training my dot Dottie
+Project to test Claude code and track potty training my dog Dottie
 
 ## Intructions
 - Always use US Central Time Zone for dates and commands. For instance "Tuesday" will refer to CST.
