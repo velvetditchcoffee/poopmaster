@@ -1,11 +1,11 @@
-# Project: Money
+# Project: Poopmaster
 
 ## What this is
-Project to use the Monarch Money python library to access the Monarch Money app and pull data from it for Claude queries
+Project to test Claude code and track potty training my dot Dottie
 
-## Monarch Money location
-- The library is installed at C:\Users\BrianWalkington\AppData\Local\Programs\Python\Python313\Lib\site-packages\monarchmoney
-- The README file shows the list of commands available
+## Intructions
+- Always use US Central Time Zone for dates and commands. For instance "Tuesday" will refer to CST.
+- This repository is also shared with other Claude instances, so proper git chekout and checkin is required.
 
-## Don't
-- Don't write to Monarch or perform functions that would modify data on the site
+
+
