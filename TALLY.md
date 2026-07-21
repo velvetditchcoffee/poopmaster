@@ -15,8 +15,9 @@ Boot camp start: 2026-07-09 | Goal: poop outside, not inside
 | 2026-07-18 (Sat) | 1 | 1 | Pooped outside once, accident inside once. |
 | 2026-07-19 (Sun) | 1 | 0 | Pooped outside! |
 | 2026-07-20 (Mon) | 1 | 0 | Pooped outside! |
+| 2026-07-21 (Tue) | 1 | 0 | Pooped outside this morning! |
 
-**Running totals: 5 outside / 7 accidents**
+**Running totals: 6 outside / 7 accidents**
 
 ---
 
